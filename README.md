@@ -60,32 +60,32 @@ in in the figure notebooks, and run the corresponding cell for preprocessing in 
 
 ### Figure 2I & Figure 3B
 ```
-performance_scan_figure2i.py kappaz_idx kappa_star
+python performance_scan_figure2i.py kappaz_idx kappa_star
 ```
 will simulate 10000 trajectories of the hidden process with angular velocity observations and HD observations with information rate as as indexed by the first parameter (here, it would pick the kappa_idx-th $\kappa_z$ as specified in the script). The second parameter denotes the $\kappa^{\*} $ value that is used in the fixed-undertainty filter (for Figure 3B, we ran this for several values of $\kappa^{\*} $, and then picked the value that achievied best performance when averaged over all observation rates).
 For our manuscript we ran this script with information rates $\kappa_z$ and fixed uncertainty $\kappa^{\*} $  ranging from $\kappa_z = 0.01$ to $\kappa_z = 100$, respectively.
 
 ### Figure 3D
 ```
-performance_scan_figure3d.py kappa_star beta
+python performance_scan_figure3d.py kappa_star beta
 ```
 will simulate 10000 trajectories of the hidden process with angular velocity observations and HD observations with information rate ranging from $\kappa_z = 0.01$ to $\kappa_z = 100$, and perform filtering with a network filter with dynamic parameters $\kappa^{\*} $ and $\beta$, corresponding to the first and second input parameter, respectively.
 
 ### Figure 3F & Figure S4
 ```
-performance_scan_figure3f.py kappa_star beta sigma_N
+python performance_scan_figure3f.py kappa_star beta sigma_N
 ```
 will simulate 10000 trajectories of the hidden process with angular velocity observations and HD observations with information rate ranging from $\kappa_z = 0.01$ to $\kappa_z = 100$, and perform filtering with a network filter with dynamic parameters $\kappa^{\*} $ and $\beta$, and neural noise $\sigma_N$, corresponding to the first, second and third input parameter, respectively.
 
 ### Figure 4G, H
 ```
-performance_scan_figure4g.py kappaz_idx
+python performance_scan_figure4g.py kappaz_idx
 ```
 will simulate 10000 trajectories of the hidden process with angular velocity observations and HD observations with information rate $\kappa_z$ as as indexed by the first parameter.
 
 ### Figure S2
 ```
-performance_scan_figureS2.py N
+python performance_scan_figureS2.py N
 ```
 will simulate 10000 trajectories of the hidden process with angular velocity observations and HD observations. Here, the input parameter N denotes the number of neurons in a corresponding network simulation.
 
