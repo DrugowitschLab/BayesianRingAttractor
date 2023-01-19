@@ -52,7 +52,7 @@ Figures in the manuscript can be reproduced by running the Jupyter notebooks of 
 
 `Figure_2i.ipynb`, `Figure_3b,c,e,d_FigureS3.ipynb`, `Figure3f_FigureS4.ipynb`, `Figure4g,h.ipynb` and `FigureS2.ipynb` depend on further data to reproduce the corresponding plots. Unaltered, these notebookes reproduce the plots in the manuscript based on readily packed (artificial) data we provide in the folder `/data_preprocessed` as `.npz' binaries. 
 
-To run the simulations that underlie the raw data for these binaries (i.e., the performance scans), the corresponding python scripts have to be run, as specified in the following for each figure. Running such a simulation will result in an `.npz` archive in the folder `/data-raw`. These simulations have to be repeated for all paramters (or combinations thereof, parameter ranges can be retrieved from the notebooks). To further assess, process and plot this data, set
+To run the simulations that underlie the raw data for these binaries (i.e., the performance scans), the corresponding python scripts have to be run, as specified in the following for each figure. Running such a simulation will result in an `.npz` archive in the folder `/data-raw`. These simulations have to be repeated for all paramters (or combinations thereof, parameter ranges can be retrieved from the notebooks). To further assess, process and plot this data, set 
 ```
 preprocess = True
 ```
