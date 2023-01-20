@@ -1,10 +1,8 @@
 # Code for "Bayesian inference in ring attractor networks"
 
-Anna Kutschireiter, Melanie A Basnak, Rachel I Wilson, and Jan Drugowitsch (2023). Bayesian inference in ring attractor networks. Proceedings of the National Academy of Sciences
+This repo contains the code for simulations and figures in
 
-which was available as a pre-print
-
-Anna Kutschireiter, Melanie A Basnak, Jan Drugowitsch (2022). Bayesian inference in ring attractor networks. bioRxiv 2021.12.17.473253; doi: https://doi.org/10.1101/2021.12.17.473253
+Anna Kutschireiter, Melanie A Basnak, Rachel I Wilson, and Jan Drugowitsch (2023). Bayesian inference in ring attractor networks. Proceedings of the National Academy of Sciences.
 
 
 ## Code structure and environment setup
