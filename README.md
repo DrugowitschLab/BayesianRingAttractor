@@ -8,7 +8,7 @@ Anna Kutschireiter, Melanie A Basnak, Jan Drugowitsch. 2022. Bayesian inference 
 ## Code structure and environment setup
 * `root` - python scripts and jupyter notebooks containing the main code to reproduce figures
 * `/data_processed` - `analysed' artificial data
-* `/data_raw` - raw data, empty. Needs to be created before running the simulations for the raw data!
+* `/data_raw` - raw data, empty. 
 
 ### Python environment
 
